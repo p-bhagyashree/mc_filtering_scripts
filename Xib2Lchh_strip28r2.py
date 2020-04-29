@@ -123,10 +123,14 @@ SelDSTWriterConf = {
     'default'               : stripMicroDSTStreamConf(pack=enablePacking, isMC=True)
     }
 
-'''
-selectiveRawEvents=True
-'''
 
+######################################################
+'''
+selectiveRawEvents=True has been added in the DSTWriterConf 
+
+(not there in the template)
+'''
+###########################################################
 
 #Items that might get lost when running the CALO+PROTO ReProcessing in DV
 caloProtoReprocessLocs = [ "/Event/pRec/ProtoP#99", "/Event/pRec/Calo#99" ]
