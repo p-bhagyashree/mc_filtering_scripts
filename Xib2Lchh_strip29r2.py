@@ -63,6 +63,8 @@ archive = strippingArchive(stripping)
 from StrippingArchive.Stripping29r2.StrippingRD.StrippingBu2LLK import default_config as Bu2LLK_config
 config = dict(config)
 config['Bu2LLK']['CONFIG'] = Bu2LLK_config['CONFIG']
+
+# only in this stripping. Now sure what's the need of this in our case
 #########################
 
 
