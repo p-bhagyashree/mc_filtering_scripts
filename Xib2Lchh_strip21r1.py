@@ -18,6 +18,7 @@ MessageSvc().Format = "% F%30W%S%7W%R%T %0W%M"
 from CommonParticles.Utils import DefaultTrackingCuts
 DefaultTrackingCuts().Cuts  = { "Chi2Cut" : [ 0, 3 ],
                                 "CloneDistCut" : [5000, 9e+99 ] }
+# present only in 21 and 21r1.   Is it needed? if yes, on what basis are chosen?
  #####################################
 
 #Raw event juggler to split Other/RawEvent into Velo/RawEvent and Tracker/RawEvent
