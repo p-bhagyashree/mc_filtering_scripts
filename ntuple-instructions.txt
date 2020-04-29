@@ -1,0 +1,7 @@
+source /cvmfs/lhcb.cern.ch/group_login.sh
+lb-dev Bender/v33r2
+cd ./BenderDev_v33r2
+git clone ssh://git@gitlab.cern.ch:7999/threebody-ntuple-tools/Xib2Lchh.git
+make install
+cd Xib2Lchh/options/
+../../run python bender_Xib2LcKpi_data.py
