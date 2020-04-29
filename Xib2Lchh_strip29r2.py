@@ -110,15 +110,23 @@ for stream in streams:
 
 #################################
  
- 
+
+	
 sc = StrippingConf( Streams = [ AllStreams ],
                     MaxCandidates = 2000,
-                    TESPrefix = 'Strip'
-                    )
+                    TESPrefix = 'Strip')
+
+
+
+################################
 '''
-MaxCombinations =10000000 added in sc
+MaxCombinations =10000000 added in sc.
+
+what is that? is it required?
 ''' 
- 
+ #################################
+	
+	
 AllStreams.sequence().IgnoreFilterPassed = False # so that we do not get all events written out
  
 #
